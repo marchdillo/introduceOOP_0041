@@ -6,4 +6,7 @@ class Mobil
 public:
     string nama_mobil;
     string type_mobil;
+
+private:
+    int harga_mobil;
 };
