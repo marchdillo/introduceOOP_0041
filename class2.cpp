@@ -25,3 +25,11 @@ public:
         luas = panjang * lebar;
     }
 };
+
+int main()
+{
+    Persegi_Panjang pp;
+    pp.inputdata();
+    pp.hitung_luas();
+    pp.output_data();
+}
