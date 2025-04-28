@@ -25,3 +25,12 @@ public:
         cout << "harga mobil = " << harga_mobil << endl;
     }
 };
+
+int main()
+{
+    Mobil nazar;
+
+    nazar.input_data();
+    cout << "nama mobil = " << nazar.nama_mobil << endl;
+    cout << "type mobil = " << nazar.type_mobil << endl;
+}
